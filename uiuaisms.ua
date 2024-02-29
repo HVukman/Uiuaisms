@@ -53,3 +53,11 @@ Array ← ⊚ > 1 ⇡ Size # array from 1 until size (excluding)
 # make an one dimensional array again with ♭
 # remove duplicates with ⊝
 # show length ⧻
+
+## target should be 2+7=9
+## output is 0,2 the indices
+Nums ← [2 10 7 10]
+Target ← 9
+Indices ← ⊚≤ Target Nums
+Test ← ⊏ Indices Nums
+⍥(↘1.)-1 ⧻Indices Test
