@@ -35,3 +35,21 @@ Solution ← [⍥(.. - × h × k - TR)]+ n 1
 List ← × k × h ⇡n
 # Analytical solution applied
 + TR × TMINUSTR ⁿ ¯List e
+
+# Problem 29 Euler
+
+Power ← 100 # power for the problem
+
+Size ← + 1 Power     # for the right size 
+SizeArray ← -1 Power # likewise
+
+Array ← ⊚ > 1 ⇡ Size # array from 1 until size (excluding)
+
+⧻ ◴ ♭ ⊞ⁿ Array ⍉ ↯ SizeArray Array
+
+# making two arrays, reshape the size array, transpose size array ⍉
+# size array is [2 2 2 2;3 3 3 3; ...]
+# taking the power of each entry with ⊞ⁿ 
+# make an one dimensional array again with ♭
+# remove duplicates with ⊝
+# show length ⧻
