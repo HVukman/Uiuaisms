@@ -1,0 +1,11 @@
+# https://www.uiua.org/pad?src=0_12_0-dev_1__IyB0YXNrIG9uZQpJbnB1dCDihpAgImFkYSIKQ2hhciDihpAgImEiCgrijIjDlyAxMDAgw7filrMgSW5wdXQg4pazIOKKmj0gLUAgQ2hhciAtQCBJbnB1dAoKIyB0YXNrIHR3bwoKU3RyaW5nIOKGkCAiYmJiIgo-MCAvKz0gMTMyLisg4oeM4oaYMS1AIOKHjCA64oaYMS1AICAuIFN0cmluZwo=
+# task one
+Input ← "ada"
+Char ← "a"
+
+⌈× 100 ÷△ Input △ ⊚= -@ Char -@ Input
+
+# task two
+
+String ← "bbb"
+>0 /+= 132.+ ⇌↘1-@ ⇌ :↘1-@  . String
